@@ -1,0 +1,92 @@
+body{
+    background-color: gray;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+main{
+    height: 600px;
+    width: 1000px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    height: 450px;
+    width: 650px;
+    background-color: aqua;
+    flex-direction: row;
+}
+
+.left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    background: url(./images/p9.jpg);
+    background-position: center;
+    object-fit: contain;
+    background-size: cover;
+}
+
+.right{
+    height: initial;
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.title{
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: rgba(129, 128, 128, 0.811)
+}
+
+.heading{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.description{
+font-size: 20px;
+margin-bottom: 15px;
+color: rgba(129, 128, 128, 0.811);
+}
+
+.price{
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(78, 127, 106);
+    margin-bottom: 15px;
+}
+
+span{
+    color: gray;
+    font-weight: lighter;
+    font-size: 14px;
+    float: right;
+    padding-right: 40%;
+}
+
+.add-to-cart{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(78,127,106);
+    padding: 10px 20px;
+    border-radius:  10px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover{
+    color: rgb(78,127,106);
+    background-color: white;
+}
